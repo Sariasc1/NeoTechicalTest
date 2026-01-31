@@ -28,7 +28,7 @@ Follow these 3 simple steps to use this project:
 - **InitiAllApplications:** Opens and logs in to applications used throughout the process.
   - This workflow invokes [AcmeLogin.xaml](Framework/Custom/AcmeLogin.xaml) to log in if not already logged in. 
   - It also invokes [FetchWorkItem.xaml](Framework/Custom/FetchWorkItems.xaml) to fetch Work-Items and push it into Orchestrator Queue.
-  - In login try tu use the acount that already exist in my case i had to use a default account "duttthakur444@gmail.com" "0987654321@ACME" because i had a problem donwloading the files "Error 404"
+  - In login try to use the acount that already exist in my case i had to use a default account "duttthakur444@gmail.com" "0987654321@ACME" due to i had a problem try downloading the files "Error 404"
   - Remember delete the files from /data  folder
 
 ### 2. Get Transaction Data
