@@ -1,0 +1,64 @@
+{
+  "Value": {
+    "Framework/Custom/FetchWorkItems.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "fba44c35-4193-4b51-adef-7928fcd8af43",
+        "ActivityIdRef": "FilterDataTable_1",
+        "ActivityId": "1.24",
+        "ActivityName": "Filtrar tabla de datos",
+        "IsTransient": false
+      },
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "13561755-d762-4c68-81de-8acb12e31cc3",
+        "ActivityIdRef": "AddQueueItem_1",
+        "ActivityId": "1.8",
+        "ActivityName": "Add Queue Item",
+        "IsTransient": false
+      },
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "782d25ee-c4c2-44ee-b758-43e921a6c5fd",
+        "ActivityIdRef": "Sequence_6",
+        "ActivityId": "1.2",
+        "ActivityName": "Push the Work-Item into Orchestrator Queue",
+        "IsTransient": false
+      }
+    ],
+    "Main.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "835723b7-fa27-4750-a8a6-a7f4eda570c1",
+        "ActivityIdRef": "Assign_5",
+        "ActivityId": "1.53",
+        "ActivityName": "Assign SystemException (initialization)",
+        "IsTransient": false
+      }
+    ],
+    "Framework/Custom/ProcessQueueTransactions.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "5c811e69-ce15-405d-bade-442e87b6ba3a",
+        "ActivityIdRef": "Sequence_15",
+        "ActivityId": "1.114",
+        "ActivityName": "Get Transaction from Orchestrator Queue",
+        "IsTransient": false
+      },
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "e1487032-1de0-4da4-bba6-7470da1ebfad",
+        "ActivityIdRef": "NSetText_1",
+        "ActivityId": "1.32",
+        "ActivityName": "Establecer texto 'Add Comments'",
+        "IsTransient": false
+      }
+    ]
+  }
+}

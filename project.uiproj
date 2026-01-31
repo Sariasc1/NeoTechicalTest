@@ -1,0 +1,6 @@
+{
+  "Name": "RE_for_ACME",
+  "ProjectType": "Process",
+  "Description": "Robotic Enterprise Framework for ACME's Work Items Process",
+  "MainFile": "Main.xaml"
+}
